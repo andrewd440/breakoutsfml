@@ -1,0 +1,36 @@
+﻿Build started 5/9/2014 12:29:38 PM.
+     1>Project "D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Drewski's Block Breaker\Drewski's Block Breaker.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SFML\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /doc"Debug\\" /Gd /TP /analyze- /errorReport:prompt "..\..\Drewski's Block Breaker\Drewski's Block Breaker\Ball.cpp"
+         Ball.cpp
+     1>c:\sfml\include\sfml\system\time.hpp(176): warning C4635: XML document comment applied to 'sf.op_LessThan(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\system\time.hpp(200): warning C4635: XML document comment applied to 'sf.op_LessThanOrEqual(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Debug\Drewski's Block Breaker.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SFML\lib "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-network-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Debug\Drewski's Block Breaker.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Debug\Drewski's Block Breaker.lib" /MACHINE:X86 "Debug\Drewski's Block Breaker.res"
+         Debug\Application.obj
+         Debug\Ball.obj
+         Debug\Brick.obj
+         Debug\DataTables.obj
+         Debug\Entity.obj
+         Debug\GameState.obj
+         Debug\ParticleEmitter.obj
+         Debug\ParticleSystem.obj
+         Debug\PauseState.obj
+         Debug\Player.obj
+         Debug\SoundPlayer.obj
+         Debug\State.obj
+         Debug\StateStack.obj
+         Debug\TitleState.obj
+         Debug\Utilities.obj
+         Debug\World.obj
+         Debug\main.obj
+         Drewski's Block Breaker.vcxproj -> D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Debug\Drewski's Block Breaker.exe
+       XdcMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\xdcmake.exe /old "Drewski's Block Breaker" /nologo /Fo"D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Debug\Drewski's Block Breaker.xml" /FsDebug\Application.xdc /FsDebug\Ball.xdc /FsDebug\Brick.xdc /FsDebug\DataTables.xdc /FsDebug\Entity.xdc /FsDebug\GameState.xdc /FsDebug\ParticleEmitter.xdc /FsDebug\ParticleSystem.xdc /FsDebug\PauseState.xdc /FsDebug\Player.xdc /FsDebug\SoundPlayer.xdc /FsDebug\State.xdc /FsDebug\StateStack.xdc /FsDebug\TitleState.xdc /FsDebug\Utilities.xdc /FsDebug\World.xdc /FsDebug\main.xdc
+     1>Done Building Project "D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Drewski's Block Breaker\Drewski's Block Breaker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.01
