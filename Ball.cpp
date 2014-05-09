@@ -31,7 +31,7 @@ void Ball::resetPosition()
 	// Reset the movement timer for a delay after the reset
 	mMovementTimer = sf::Time::Zero;
 	setPosition(mSpawnPoint);
-	mAngle = 180;
+	mAngle = randomInt(361);
 }
 
 unsigned int Ball::getLives() const

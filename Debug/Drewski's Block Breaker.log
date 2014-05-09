@@ -1,12 +1,86 @@
-﻿Build started 5/9/2014 12:29:38 PM.
+﻿Build started 5/9/2014 1:37:04 PM.
      1>Project "D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Drewski's Block Breaker\Drewski's Block Breaker.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SFML\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /doc"Debug\\" /Gd /TP /analyze- /errorReport:prompt "..\..\Drewski's Block Breaker\Drewski's Block Breaker\Ball.cpp"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SFML\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /doc"Debug\\" /Gd /TP /analyze- /errorReport:prompt "..\..\Drewski's Block Breaker\Drewski's Block Breaker\Application.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\Ball.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\Brick.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\DataTables.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\Entity.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\GameState.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\ParticleEmitter.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\ParticleSystem.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\PauseState.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\Player.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\SoundPlayer.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\State.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\StateStack.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\TitleState.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\Utilities.cpp" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\World.cpp" main.cpp
+         main.cpp
+     1>c:\sfml\include\sfml\system\time.hpp(176): warning C4635: XML document comment applied to 'sf.op_LessThan(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\system\time.hpp(200): warning C4635: XML document comment applied to 'sf.op_LessThanOrEqual(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\graphics\renderwindow.hpp(115): warning C4635: XML document comment applied to 'sf.RenderWindow.capture': badly-formed XML: A name was started with an invalid character.
+         
+         World.cpp
+     1>c:\sfml\include\sfml\graphics\renderwindow.hpp(115): warning C4635: XML document comment applied to 'sf.RenderWindow.capture': badly-formed XML: A name was started with an invalid character.
+         
+     1>d:\users\andrew\perforceworkspace\drew-deskpc\drewski's block breaker\drewski's block breaker\world.cpp(46): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>d:\users\andrew\perforceworkspace\drew-deskpc\drewski's block breaker\drewski's block breaker\world.cpp(282): warning C4018: '<' : signed/unsigned mismatch
+         Utilities.cpp
+     1>d:\users\andrew\perforceworkspace\drew-deskpc\drewski's block breaker\drewski's block breaker\utilities.cpp(26): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         TitleState.cpp
+     1>c:\sfml\include\sfml\graphics\renderwindow.hpp(115): warning C4635: XML document comment applied to 'sf.RenderWindow.capture': badly-formed XML: A name was started with an invalid character.
+         
+         StateStack.cpp
+     1>c:\sfml\include\sfml\graphics\renderwindow.hpp(115): warning C4635: XML document comment applied to 'sf.RenderWindow.capture': badly-formed XML: A name was started with an invalid character.
+         
+         State.cpp
+     1>c:\sfml\include\sfml\graphics\renderwindow.hpp(115): warning C4635: XML document comment applied to 'sf.RenderWindow.capture': badly-formed XML: A name was started with an invalid character.
+         
+         SoundPlayer.cpp
+         Player.cpp
+     1>c:\sfml\include\sfml\system\time.hpp(176): warning C4635: XML document comment applied to 'sf.op_LessThan(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\system\time.hpp(200): warning C4635: XML document comment applied to 'sf.op_LessThanOrEqual(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+         PauseState.cpp
+     1>c:\sfml\include\sfml\graphics\renderwindow.hpp(115): warning C4635: XML document comment applied to 'sf.RenderWindow.capture': badly-formed XML: A name was started with an invalid character.
+         
+     1>d:\users\andrew\perforceworkspace\drew-deskpc\drewski's block breaker\drewski's block breaker\pausestate.cpp(14): warning C4244: 'argument' : conversion from 'double' to 'sf::Uint8', possible loss of data
+         ParticleSystem.cpp
+     1>c:\sfml\include\sfml\system\time.hpp(176): warning C4635: XML document comment applied to 'sf.op_LessThan(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\system\time.hpp(200): warning C4635: XML document comment applied to 'sf.op_LessThanOrEqual(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>d:\users\andrew\perforceworkspace\drew-deskpc\drewski's block breaker\drewski's block breaker\particlesystem.cpp(41): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         ParticleEmitter.cpp
+     1>c:\sfml\include\sfml\system\time.hpp(176): warning C4635: XML document comment applied to 'sf.op_LessThan(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\system\time.hpp(200): warning C4635: XML document comment applied to 'sf.op_LessThanOrEqual(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\graphics\transformable.hpp(336): warning C4635: XML document comment applied to 'ParticleEmitter': badly-formed XML: Whitespace is not allowed at this location.
+         
+         GameState.cpp
+     1>c:\sfml\include\sfml\graphics\renderwindow.hpp(115): warning C4635: XML document comment applied to 'sf.RenderWindow.capture': badly-formed XML: A name was started with an invalid character.
+         
+         Entity.cpp
+     1>c:\sfml\include\sfml\system\time.hpp(176): warning C4635: XML document comment applied to 'sf.op_LessThan(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\system\time.hpp(200): warning C4635: XML document comment applied to 'sf.op_LessThanOrEqual(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+         DataTables.cpp
+     1>c:\sfml\include\sfml\system\time.hpp(176): warning C4635: XML document comment applied to 'sf.op_LessThan(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\system\time.hpp(200): warning C4635: XML document comment applied to 'sf.op_LessThanOrEqual(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+         Brick.cpp
+     1>c:\sfml\include\sfml\system\time.hpp(176): warning C4635: XML document comment applied to 'sf.op_LessThan(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\system\time.hpp(200): warning C4635: XML document comment applied to 'sf.op_LessThanOrEqual(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
          Ball.cpp
      1>c:\sfml\include\sfml\system\time.hpp(176): warning C4635: XML document comment applied to 'sf.op_LessThan(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
          
      1>c:\sfml\include\sfml\system\time.hpp(200): warning C4635: XML document comment applied to 'sf.op_LessThanOrEqual(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
          
+         Application.cpp
+     1>c:\sfml\include\sfml\system\time.hpp(176): warning C4635: XML document comment applied to 'sf.op_LessThan(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\system\time.hpp(200): warning C4635: XML document comment applied to 'sf.op_LessThanOrEqual(sf.Time,sf.Time)': badly-formed XML: Invalid at the top level of the document.
+         
+     1>c:\sfml\include\sfml\graphics\renderwindow.hpp(115): warning C4635: XML document comment applied to 'sf.RenderWindow.capture': badly-formed XML: A name was started with an invalid character.
+         
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Drewski's Block Breaker.res" "..\..\Drewski's Block Breaker\Drewski's Block Breaker\Drewski's Block Breaker.rc" 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Debug\Drewski's Block Breaker.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SFML\lib "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-network-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Debug\Drewski's Block Breaker.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Andrew\PerforceWorkspace\Drew-DeskPC\Drewski's Block Breaker\Debug\Drewski's Block Breaker.lib" /MACHINE:X86 "Debug\Drewski's Block Breaker.res"
          Debug\Application.obj
@@ -33,4 +107,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.01
+Time Elapsed 00:00:11.55
